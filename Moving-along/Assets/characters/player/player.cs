@@ -10,7 +10,7 @@ public class player : MonoBehaviour
         
     }
 
-    float speed = 10;
+    public FloatReference speed;
 
     // Update is called once per frame
     void FixedUpdate()
